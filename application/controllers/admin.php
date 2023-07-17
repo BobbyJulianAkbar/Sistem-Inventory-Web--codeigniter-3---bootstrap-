@@ -25,4 +25,18 @@ class Admin extends CI_Controller {
 		$this->load->view('dashboard');
 		$this->load->view('templates/footer');
 	}
+	public function fpb()
+	{
+		$this->load->view('templates/header');
+		$this->load->view('templates/sidebar');
+		$this->load->view('form/fpb');
+		$this->load->view('templates/footer');
+	}
+	public function fpp()
+	{
+		$this->load->view('templates/header');
+		$this->load->view('templates/sidebar');
+		$this->load->view('form/fpp');
+		$this->load->view('templates/footer');
+	}
 }
